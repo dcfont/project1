@@ -96,6 +96,15 @@ async function getAllReimbs(e){
     listOfTickets.submitted = new Date(listOfTickets.submitted).toDateString();
 
     let table = document.getElementById("reimbs");
+    table.innerHTML = "";
+
+    let header = document.createElement("thead")
+    header.innerHTML =
+            ` <thead><tr> <th>Id</th>         	<th>Amount</th>	    <th>Submit Time</th> <th>Author</th>	
+            <th>Resolver</th>	<th>Type</th>	          <th>Status</th> </tr>
+              </thead>`;
+
+              table.appendChild(header);
 
     listOfTickets.forEach(list => {
         
