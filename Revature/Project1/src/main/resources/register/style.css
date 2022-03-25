@@ -1,0 +1,112 @@
+.navbar{
+    background-color: rgba(24, 128, 128, 0.527);
+}
+
+.navbar-brand{
+    color: rgb(233, 219, 219);
+    font-weight: 700;
+    background-color: rgba(214, 20, 69, 0.493);
+    background-size: cover;
+}
+
+body{
+    background-image: url(../img/tree.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.b{
+    background-color: rgba(75, 15, 15, 0.849);
+    color: rgba(216, 133, 133, 0.979);
+    width: 70px;
+    height: 50px;
+    border: none;
+    border-radius: 25%;
+}
+
+.b:hover{
+        color: rgb(43, 8, 83);
+        background-color: rgba(173, 124, 151, 0.651);
+        transition: .3s;
+        transition-duration: .3s;
+        font-weight: bold;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+  
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    text-align: center;
+
+    margin-top: 100px;
+    padding: 15px;
+
+    height: 425px;
+
+    border-style: groove;
+    transform: scale(0.9);
+    border-radius: 5%;
+    border-color: rgba(238, 107, 150, 0.856);
+    box-shadow: 0px 2px 30px 30px #d45656d7, 2px 2px 5px #ec0b1ecc, 2px 2px 1px 5px #0f070bb4;
+
+}
+
+
+.container input{
+    margin: 10px;
+    padding: 15px;
+
+    width: 300px;
+    height: 50px;
+
+    border: none;
+    border-radius: 15px;
+  
+    background-color: #371d10c5;
+
+    color: rgba(189, 65, 65, 0.973);
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    transition: .5s ease-out;
+}
+
+.container input:hover{
+    background-color: rgba(14, 13, 13, 0.63);
+    transition: .2s ease-out;
+   
+}
+
+span{
+    
+    color: rgba(250, 61, 61, 0.637);
+    background-color: #371d10c5;
+    font-weight: 500;
+    font-size: 28px;
+    border-radius: 15px;
+
+    width: 300px;
+    height: 50px;
+}
+
+#user_role{
+    width: 70px;
+    height: 25px;
+
+    background-color: rgba(75, 15, 15, 0.849);
+    color: rgba(216, 133, 133, 0.979);
+    
+    border: none;
+    border-radius: 25%;
+}
+
+.title{
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgba(189, 209, 238, 0.822);
+    
+    text-shadow: 5px 5px  rgb(216, 65, 65), 5px 5px rgb(190, 45, 101), 5px 5px rgb(190, 45, 101);
+}

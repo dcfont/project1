@@ -1,0 +1,197 @@
+.container-fluid{
+    background-color: #ecea8788;
+    color: #000;
+
+    max-width: 1000px;
+}
+
+.nav-link:hover{
+    background-color: #db6c11a8;
+}
+
+.nav-item{
+    background-color: rgba(66, 17, 17, 0.226);
+}
+.nav-item:hover{
+    background-image: url(/img/rocks.jpg);
+}
+
+.navbar-brand{
+    color: #000;
+}
+
+.navbar-brand:hover{
+    background-image: url(./img/nl.jpg);
+}
+
+body{
+    background-image: url(/img/rocks.jpg);
+    background-size: 100%;
+  
+}
+
+.b{
+    background-color: rgba(32, 30, 30, 0.74);
+    color: rgba(250, 246, 246, 0.904);
+    width: 90px;
+    height: 50px;
+    border: none;
+    border-radius: 25%;
+    
+}
+
+.b:hover{
+        color: gold;
+        background-color: rgba(10, 66, 59, 0.651);
+        transition: .3s;
+        transition-duration: .3s;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    
+    
+    text-align: center;
+
+    margin-top: 200px;
+    padding: 15px;
+
+    height: 300px;
+    max-width: 00px;
+
+   
+
+}
+
+.container input{
+    margin: 10px;
+    padding: 15px;
+    background-color: rgba(9, 54, 54, 0.678);
+
+    color: rgba(13, 173, 21, 0.705);
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+
+    border: none;
+    border-radius: 15px;
+
+   
+    
+}
+
+.con{
+    
+    color: rgba(61, 16, 16, 0.637);
+    background-color: #e291279a;
+    font-weight: 200;
+    font-size: 20px;
+    
+    margin: 15px;
+    padding: 10px;
+    border-radius: 15px;
+
+    width: 80px;
+    height: 50px;
+}
+
+#title{
+    font-weight: 200;
+    font-size: 25px;
+    font-weight: 600;
+
+    color: rgba(173, 11, 11, 0.89);
+    text-shadow: 5px 5px 4px rgba(255, 255, 0, 0.63);
+
+    background-color: rgba(12, 66, 28, 0.521);
+    height: 140px;
+    border-radius: 50%;
+}
+
+.add-btn{
+    height: 150px;
+    
+    background-color: #0c61619a;
+    border: none;
+    border-radius: 50%;
+}
+
+.add-btn::content{
+
+    
+
+    background-color: #0c61619a;
+    border: ridge black;
+    border-radius: 6px;
+
+    
+}
+
+#reimbs{
+
+    max-width: 800px;
+    height: 500px;
+    margin-left: 500px;
+
+    background-color: rgba(133, 49, 141, 0.541);
+
+    color: rgb(231, 202, 202);
+  
+}
+
+
+.btns{
+    display: flex;
+    flex-direction: column;
+
+    margin: 20px;
+    padding: 15px;
+}
+
+#add-btn{
+    height: 65px;
+
+    margin-bottom: 15px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: #e291279a;
+    color: rgba(80, 49, 49, 0.979);
+
+}
+
+#vpast-btn{
+    height: 65px;
+
+    margin-bottom: 15px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: rgba(199, 18, 18, 0.541);
+
+    color: rgba(238, 186, 186, 0.979);
+}
+
+#vone-btn{
+    height: 65px;
+
+    margin-bottom: 15px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: rgba(15, 124, 79, 0.712);
+    color: rgba(238, 186, 186, 0.979);
+}
+
+
+.hide{
+    transform: scale(0);
+}
+
+#body{
+    overflow-y: scroll;
+}
